@@ -4,16 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using taskManager;
-public class Task
-{
-    public string Description { get; set; }
-    public bool IsCompleted { get; set; }
-    public Task(string description)
-    {
-        Description = description;
-        IsCompleted = false;
-    }
-}
+
 public class TaskManagerForm : Form
 {
     private TaskManager taskManager;
